@@ -26,7 +26,7 @@ getData();
 
   return (
     <>
-      <div className='container text-white mt-4 overflow-hidden'>
+      <div className='container text-white mt-4'>
         <div className='flex justify-center font-bold text-black p-6 text-lg gap-x-20'>
           <div className='flex mr-2 w-80'>
             <div className="w-20 flex justify-start">
