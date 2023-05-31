@@ -1,48 +1,40 @@
-import React from "react"
+import React from 'react'
 
 const Card = (props) => {
     return (
-        <>
-            <div>
-                <div className='flex justify-start font-medium text-white p-6 text-lg gap-x-20'>
-                    <div className='flex mr-2 w-80'>
-                        <div className="w-20 flex justify-start">
-                            <p>{props.rank}</p>
-                        </div>
-                        <div className="grid w-80 justify-center">
-                            <div className="flex gap-1 justify-center">
-                                <img src={props.image} alt="coin" className="w-8"/>
-                                <p>{props.name}</p>
-                                <p className="opacity-75">{props.symbol}</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='flex'>
-                        <div className="w-40 grid justify-center">
-                            <p>{props.price}</p>
-                        </div>
-                        {props.priceChange < 0
-                            ? (<div className="w-40 grid justify-center text-red-700 sm:hidden ">
-                                <p>{props.priceChange}</p>
-                            </div>)
-                            : ((<div className="w-40 grid justify-center text-green-400">
-                                <p>{props.priceChange}</p>
-                            </div>))
-                        }
-
-                        <div className="w-40 grid justify-center">
-                            <p>${props.volume.toLocaleString()}</p>
-                        </div>
-                        <div className="w-40 grid justify-center">
-                            <p>${props.market_cap.toLocaleString()}</p>
-                        </div>
-                    </div>
-
+        <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+            <th scope="row" className="px-4 py-3 md:px-6 md:py-4 font-medium text-gray-900 dark:text-white">
+                {props.rank}
+            </th>
+            <td className="px-4 py-3 md:px-6 md:py-4">
+                <div className="flex gap-1 justify-left items-center">
+                    <img src={props.image} alt="coin" className="w-8" />
+                    <p>{props.name}</p>
+                    <p className="opacity-75">{props.symbol}</p>
                 </div>
+            </td>
+            <td className="px-4 py-3 md:px-6 md:py-4">
+                {props.price}
+            </td>
+            <td className="px-4 py-3 md:px-6 md:py-4">
+                {props.priceChange < 0
+                    ? (<div className="w-40 grid justify-center text-red-400">
+                        <p>{props.priceChange}</p>
+                    </div>)
+                    : ((<div className="w-40 grid justify-center text-green-400">
+                        <p>{props.priceChange}</p>
+                    </div>))
+                }
+            </td>
+            <td className="px-4 py-3 md:px-6 md:py-4 text-center">
+                ${props.volume.toLocaleString()}
+            </td>
+            <td className="px-4 py-3 md:px-6 md:py-4 text-center">
+                ${props.market_cap.toLocaleString()}
+            </td>
+        </tr>
 
-            </div>
 
-        </>
     )
 }
 
