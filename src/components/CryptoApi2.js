@@ -30,22 +30,22 @@ const CryptoApi = (props) => {
       <table className="w-full overflow-x-auto text-sm text-left text-gray-500 dark:text-gray-400">
         <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
           <tr>
-            <th scope="col" className="px- md:px-6 ml-4 py-2">
+            <th scope="col" className="px-4 md:px-6 ml-4 py-2">
               Coin
             </th>
-            <th scope="col" className="px-4 md:px-6 ml-4 py-2">
-              Color
+            <th  scope="col" className="px-4 w-max md:w-full md:px-6 ml-4 py-2">
+              Name
             </th>
             <th scope="col" className="px-4 md:px-6 ml-4 py-2">
               Price
             </th>
-            <th scope="col" className="px-4 md:px-6 ml-4 py-2">
+            <th scope="col" className="px-4  flex justify-center md:px-6 py-2">
               24%h
             </th>
-            <th scope="col" className="px-4 md:px-6 ml-4 py-2">
+            <th scope="col" className="px-4  md:px-6 ml-4 py-2">
               Volume
             </th>
-            <th scope="col" className="px-4 md:px-6 ml-4 py-2">
+            <th scope="col" className="px-4 md:px-10  flex justify-center py-2">
               MarketCap
             </th>
           </tr>
