@@ -1,6 +1,6 @@
 # Cryptoverse
 
-![Cryptoverse Screenshot](link_to_your_project_screenshot)
+![cryptoverse](https://github.com/Durvesh7k/cryptoverse/assets/113430857/a068703d-b979-4244-b491-8fecc6bbe649)
 
 ## Table of Contents
 
