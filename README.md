@@ -58,7 +58,7 @@ npm install
 npm Start
 
 ```
-### Contributing
+## Contributing
 We welcome contributions to improve Cryptoverse and make it more useful for the community. If you want to contribute, follow these steps:
 
 1. Fork the repository on GitHub.
@@ -72,10 +72,10 @@ We welcome contributions to improve Cryptoverse and make it more useful for the 
 
 We appreciate your contributions, whether they involve bug fixes, new features, or documentation updates.
 
-### Feedback
+## Feedback
 We value your feedback! If you have any questions, suggestions, or encounter any issues, please feel free to create an issue on the [GitHub repository](https://github.com/Durvesh7k/cryptoverse).
 
-### License
+## License
 
 Cryptoverse is open-source software licensed under the MIT License. You are free to use, modify, and distribute this project as per the terms of the [MIT License](https://opensource.org/license/mit/).
 
